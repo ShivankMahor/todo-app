@@ -6,7 +6,7 @@ const Items = [{
 },
 {
     id: 1,
-    value: "Kill Someone",
+    value: "EAT",
     completed: false,
     pinned : false,
 },
