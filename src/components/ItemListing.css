@@ -1,0 +1,40 @@
+.functionality{
+    color: black;
+    margin: 5px 0;
+    border-radius: 8px;
+    border:  none;
+    padding: 0 10px;
+
+}
+.Listed-Item{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.ListedItem{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    width: 70%; 
+    margin: 5px 0;
+    font-size: 15px;
+}
+.ListedItem:hover{
+    background-color: orange;
+}
+.close{
+    background-color: tomato;
+    margin-right: 0;
+}
+.up{
+    background-color: mediumseagreen;
+}
+.down{
+    background-color: rgb(84, 169, 255);
+}
+.color{
+    background-color: limegreen;
+}
+.pinned{
+    background-color: darkcyan;
+}
