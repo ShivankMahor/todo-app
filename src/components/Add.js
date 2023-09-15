@@ -18,10 +18,12 @@ function Add({dispatch}){
     function handleChange(e){
         setItemdata({...itemData, [e.target.name]:e.target.value});
     }
-    return (
+    return ( 
         <form>
-            <input type="text" name='value' placeholder='Add Task' value={itemData.value} onChange={handleChange} ></input>
-            <input type="submit" value={'Add Item'} onClick={handleSubmit}></input>
+
+            <input className='addInput' type="text" name='value' placeholder='Add Task' value={itemData.value} onChange={handleChange} ></input>
+            <input className='addButton' type="submit" value={'Add Item'} onClick={handleSubmit}></input>
+            {/* <button class="button-66" role="button">Add Item</button> */}
         </form>
     )
 }

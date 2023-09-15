@@ -16,7 +16,7 @@ function ItemListing({dispatch,updateTotal,ListedItem, updateCompleted,id,comple
     e.preventDefault();
     switch(e.target.value){
       case 'changeColor':
-        if(completed){
+        if(completed){ 
           updateCompleted('-');
         }
         else{

@@ -18,21 +18,28 @@
     width: 70%; 
     margin: 5px 0;
     font-size: 15px;
+    background-color: rgb(186, 229, 229);
+    border-radius: 10px;
+    border: 1px solid grey;
 }
 .ListedItem:hover{
     background-color: orange;
 }
 .close{
-    background-color: tomato;
+    /* background-color: tomato; */
+    background-color: rgb(237, 82, 54);
     margin-right: 0;
 }
 .up{
-    background-color: mediumseagreen;
+    /* background-color: mediumseagreen; */
+    background-color: rgb(65, 228, 78);
 }
 .down{
-    background-color: rgb(84, 169, 255);
+    /* background-color: rgb(84, 169, 255); */
+    background-color: rgb(47, 175, 239);
 }
 .color{
+    /* background-color: limegreen; */
     background-color: limegreen;
 }
 .pinned{
